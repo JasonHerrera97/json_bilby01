@@ -1,0 +1,145 @@
+18:39 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+18:39 INFO    : Injected signal in H1:
+18:39 INFO    :   optimal SNR = 25.66
+18:39 INFO    :   matched filter SNR = 25.66-0.00j
+18:39 INFO    :   chirp_mass = 1.43
+18:39 INFO    :   mass_ratio = 0.833
+18:39 INFO    :   a_1 = 0.0
+18:39 INFO    :   a_2 = 0.0
+18:39 INFO    :   tilt_1 = 0.0
+18:39 INFO    :   tilt_2 = 0.0
+18:39 INFO    :   theta_jn = 0.1
+18:39 INFO    :   luminosity_distance = 100
+18:39 INFO    :   phi_jl = 0.0
+18:39 INFO    :   psi = 2.659
+18:39 INFO    :   phase = 1.3
+18:39 INFO    :   geocent_time = 1264069376
+18:39 INFO    :   phi_12 = 0.0
+18:39 INFO    :   ra = 5.445
+18:39 INFO    :   dec = 0.0
+18:39 INFO    : Injected signal in L1:
+18:39 INFO    :   optimal SNR = 23.53
+18:39 INFO    :   matched filter SNR = 23.53+0.00j
+18:39 INFO    :   chirp_mass = 1.43
+18:39 INFO    :   mass_ratio = 0.833
+18:39 INFO    :   a_1 = 0.0
+18:39 INFO    :   a_2 = 0.0
+18:39 INFO    :   tilt_1 = 0.0
+18:39 INFO    :   tilt_2 = 0.0
+18:39 INFO    :   theta_jn = 0.1
+18:39 INFO    :   luminosity_distance = 100
+18:39 INFO    :   phi_jl = 0.0
+18:39 INFO    :   psi = 2.659
+18:39 INFO    :   phase = 1.3
+18:39 INFO    :   geocent_time = 1264069376
+18:39 INFO    :   phi_12 = 0.0
+18:39 INFO    :   ra = 5.445
+18:39 INFO    :   dec = 0.0
+18:39 INFO    : Injected signal in V1:
+18:39 INFO    :   optimal SNR = 20.13
+18:39 INFO    :   matched filter SNR = 20.13-0.00j
+18:39 INFO    :   chirp_mass = 1.43
+18:39 INFO    :   mass_ratio = 0.833
+18:39 INFO    :   a_1 = 0.0
+18:39 INFO    :   a_2 = 0.0
+18:39 INFO    :   tilt_1 = 0.0
+18:39 INFO    :   tilt_2 = 0.0
+18:39 INFO    :   theta_jn = 0.1
+18:39 INFO    :   luminosity_distance = 100
+18:39 INFO    :   phi_jl = 0.0
+18:39 INFO    :   psi = 2.659
+18:39 INFO    :   phase = 1.3
+18:39 INFO    :   geocent_time = 1264069376
+18:39 INFO    :   phi_12 = 0.0
+18:39 INFO    :   ra = 5.445
+18:39 INFO    :   dec = 0.0
+18:39 INFO    : Injected signal in K1:
+18:39 INFO    :   optimal SNR = 6.87
+18:39 INFO    :   matched filter SNR = 6.87-0.00j
+18:39 INFO    :   chirp_mass = 1.43
+18:39 INFO    :   mass_ratio = 0.833
+18:39 INFO    :   a_1 = 0.0
+18:39 INFO    :   a_2 = 0.0
+18:39 INFO    :   tilt_1 = 0.0
+18:39 INFO    :   tilt_2 = 0.0
+18:39 INFO    :   theta_jn = 0.1
+18:39 INFO    :   luminosity_distance = 100
+18:39 INFO    :   phi_jl = 0.0
+18:39 INFO    :   psi = 2.659
+18:39 INFO    :   phase = 1.3
+18:39 INFO    :   geocent_time = 1264069376
+18:39 INFO    :   phi_12 = 0.0
+18:39 INFO    :   ra = 5.445
+18:39 INFO    :   dec = 0.0
+18:39 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.binary_neutron_star_roq
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+18:39 WARNING : Prior not provided for phase, using the BBH default.
+18:39 INFO    : No prior given, using default BBH priors in /home/jason/miniconda3/envs/env1/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+18:39 INFO    : Loaded distance marginalisation lookup table from .distance_marginalization_lookup.npz.
+18:39 INFO    : Loading linear_matrix from /home/jason/Bilby/my_own_runs/bilby_run01/roq/basis_256s.hdf5
+18:39 INFO    : Loading quadratic_matrix from /home/jason/Bilby/my_own_runs/bilby_run01/roq/basis_256s.hdf5
+18:39 INFO    : ROQ time-step = 7.62939453125e-05
+18:39 INFO    : Using 1128 ROQ time samples
+18:39 INFO    : Building linear ROQ weights for the 6-th basis.
+18:39 INFO    : Building quadratic ROQ weights for the 6-th basis.
+18:39 INFO    : Running for label 'bns_example', output will be saved to '/home/jason/Bilby/my_own_runs/bilby_run01/outdirTaylorF2ThreePointFivePN/100_1.43_1.43/'
+18:39 INFO    : Using lal version 7.3.1
+18:39 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.16;Id: eabfdf4e4d3fc392b912ffd053b238d0f18a064a;;Builder: Unknown User <>;Repository status: UNCLEAN: Modified working tree
+18:39 INFO    : Using lalsimulation version 5.2.1
+18:39 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.16;Id: eabfdf4e4d3fc392b912ffd053b238d0f18a064a;;Builder: Unknown User <>;Repository status: UNCLEAN: Modified working tree
+18:39 INFO    : Analysis priors:
+18:39 INFO    : chirp_mass=Uniform(minimum=1.4, maximum=1.46, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+18:39 INFO    : mass_ratio=Uniform(minimum=0.25, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+18:39 INFO    : a_1=Uniform(minimum=0, maximum=0.05, name='a_1', latex_label='$a_1$', unit=None, boundary=None)
+18:39 INFO    : a_2=Uniform(minimum=0, maximum=0.05, name='a_2', latex_label='$a_2$', unit=None, boundary=None)
+18:39 INFO    : phi_jl=Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\phi_{JL}$', unit=None, boundary='periodic')
+18:39 INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+18:39 INFO    : psi=Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\psi$', unit=None, boundary='periodic')
+18:39 INFO    : mass_1=Constraint(minimum=1.0, maximum=3.0, name='mass_1', latex_label='$m_1$', unit=None)
+18:39 INFO    : mass_2=Constraint(minimum=1.0, maximum=3.0, name='mass_2', latex_label='$m_2$', unit=None)
+18:39 INFO    : tilt_1=0.0
+18:39 INFO    : tilt_2=0.0
+18:39 INFO    : phi_12=0.0
+18:39 INFO    : luminosity_distance=388.9197400261934
+18:39 INFO    : dec=0.0
+18:39 INFO    : ra=5.445
+18:39 INFO    : geocent_time=1264069376
+18:39 INFO    : phase=0.0
+18:39 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.roq.ROQGravitationalWaveTransient'>
+18:39 INFO    : Analysis likelihood noise evidence: -832.2233841650623
+18:39 INFO    : Single likelihood evaluation took 8.884e-04 s
+18:39 INFO    : Using sampler Dynesty with kwargs {'nlive': 2000, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 100, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.1, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7fcdb1bec460>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+18:39 INFO    : Checkpoint every check_point_delta_t = 600s
+18:39 INFO    : Using dynesty version 2.1.2
+18:39 INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 10 with maximum length 50000
+18:39 INFO    : Setting up multiproccesing pool with 100 processes
+18:39 INFO    : Resume file /home/jason/Bilby/my_own_runs/bilby_run01/outdirTaylorF2ThreePointFivePN/100_1.43_1.43//bns_example_resume.pickle does not exist.
+18:39 INFO    : Generating initial points from the prior
+18:49 INFO    : Written checkpoint file /home/jason/Bilby/my_own_runs/bilby_run01/outdirTaylorF2ThreePointFivePN/100_1.43_1.43//bns_example_resume.pickle
+18:50 WARNING : Axis limits cannot be NaN or Inf
+18:50 WARNING : Failed to create dynesty run plot at checkpoint
+18:55 INFO    : Written checkpoint file /home/jason/Bilby/my_own_runs/bilby_run01/outdirTaylorF2ThreePointFivePN/100_1.43_1.43//bns_example_resume.pickle
+18:56 WARNING : Axis limits cannot be NaN or Inf
+18:56 WARNING : Failed to create dynesty run plot at checkpoint
+18:56 INFO    : Starting to close worker pool.
+18:56 INFO    : Finished closing worker pool.
+18:56 INFO    : Rejection sampling nested samples to obtain 6322 posterior samples
+18:56 INFO    : Sampling time: 0:16:32.187709
+18:56 INFO    : Computing per-detector log likelihoods.
+18:56 INFO    : Using a pool with size 100 for nsamples=6322
+18:56 INFO    : Reconstructing marginalised parameters.
+18:56 INFO    : Using a pool with size 100 for nsamples=6322
+18:56 INFO    : Generating sky frame parameters.
+18:56 INFO    : Computing SNRs for every sample.
+18:56 INFO    : Using a pool with size 100 for nsamples=6322
+18:56 INFO    : Summary of results:
+nsamples: 6322
+ln_noise_evidence: -832.223
+ln_evidence: -24.903 +/-  0.101
+ln_bayes_factor: 807.320 +/-  0.101
+
